@@ -374,24 +374,21 @@
   </div>
 
 <script>
-(() => {
+(async () => {
   /**
-   * 목표 기능
-   * - 언어 선택: 영어/일본어/스페인어 (메인에서 선택)
-   * - 단어 카드: 단어/발음기호/한국어 발음/한국어 뜻/예문
-   * - 예문 클릭 시: 발음(한국어) + 뜻 + TTS 포함한 상세 시트
-   * - TTS: 단어/예문
-   * - 단어 추가: 폼으로 추가 (언어별)
-   * - 저장: localStorage (기기/브라우저별)
+   * ✅ 수정/추가된 핵심
+   * 1) 배포용 기본 단어팩 자동 로드:
+   *    - vocab_en.json / vocab_ja.json / vocab_es.json (있으면 자동 저장)
+   * 2) 단어 0개면 플랜 생성/내일 탭 표시 금지 (오류 방지)
    */
 
   const LS_KEY = 'vocab_swipe_v2_multi_lang';
   const LS_CUSTOM_MASTER_PREFIX = 'vocab_custom_master_v2_';
 
   const LANGS = {
-    en: { label: 'English', tts: 'en-US' },
-    ja: { label: '日本語', tts: 'ja-JP' },
-    es: { label: 'Español', tts: 'es-ES' }
+    en: { label: 'English', tts: 'en-US', defaultFile: './vocab_en.json' },
+    ja: { label: '日本語', tts: 'ja-JP', defaultFile: './vocab_ja.json' },
+    es: { label: 'Español', tts: 'es-ES', defaultFile: './vocab_es.json' }
   };
 
   const $ = (sel, root=document) => root.querySelector(sel);
@@ -453,7 +450,6 @@
   }
 
   // ---------- Built-in masters (샘플/초기값) ----------
-  // 원하는 만큼 늘려도 되고, 설정에서 단어를 계속 추가해도 됨.
   const builtIn = {
     en: [
       {id:'en_1', word:'account', ipa:'/əˈkaʊnt/', koPron:'어카운트', meaningKo:'계정, 설명', example:'I created an account to track my expenses.'},
@@ -511,7 +507,8 @@
       known: {},
       unknown: {},
       daily: {},
-      settings: { rewindDays: 7, dailyCount: 30 }
+      settings: { rewindDays: 7, dailyCount: 30 },
+      plan: null
     };
   }
 
@@ -528,15 +525,14 @@
   }
 
   function migrateIfNeeded(s){
-    // v1(단일언어) 데이터를 v2로 흡수(가능한 경우)
     if(!s) return defaultState();
     if(s.schemaVersion === 2 && s.langs) return s;
 
-    // 구버전 호환: known/unknown/daily/settings가 루트에 있으면 en으로 이동
     const next = defaultState();
     try{
       if(s.known || s.unknown || s.daily || s.settings){
         next.langs.en = {
+          ...defaultLangState(),
           known: s.known ?? {},
           unknown: s.unknown ?? {},
           daily: s.daily ?? {},
@@ -565,6 +561,45 @@
   }
 
   function activeLangMeta(){ return LANGS[state.activeLang] ?? LANGS.en; }
+
+  // ✅ 배포용 기본 단어팩 자동 로드 (처음 1회)
+  async function loadDefaultPackIfMissing(lang){
+    const meta = LANGS[lang];
+    if(!meta?.defaultFile) return false;
+
+    // 이미 커스텀 단어가 있으면 건드리지 않음
+    if(localStorage.getItem(LS_CUSTOM_MASTER_PREFIX + lang)) return false;
+
+    try{
+      const res = await fetch(meta.defaultFile, { cache: 'no-store' });
+      if(!res.ok) return false;
+      const data = await res.json();
+      if(!Array.isArray(data) || data.length === 0) return false;
+
+      // normalize
+      const normalized = data.map((x, idx) => ({
+        id: x.id ?? `f_${lang}_${idx}_${hashId(x.word ?? '')}`,
+        word: String(x.word ?? '').trim(),
+        ipa: String(x.ipa ?? '').trim(),
+        koPron: String(x.koPron ?? '').trim(),
+        meaningKo: String(x.meaningKo ?? '').trim(),
+        example: String(x.example ?? '').trim()
+      })).filter(x => x.word && x.example);
+
+      if(normalized.length === 0) return false;
+
+      saveCustomMaster(lang, normalized);
+
+      // 플랜은 단어 리스트 기반이니까 새로 생성되도록 리셋
+      state.langs[lang] ??= defaultLangState();
+      state.langs[lang].plan = null;
+      saveState();
+
+      return true;
+    }catch{
+      return false;
+    }
+  }
 
   // ---------- TTS ----------
   function speak(text){
@@ -668,23 +703,30 @@
 
   function ensurePlan(){
     const ls = langState();
-    if(ls.plan && ls.plan.startDate && ls.plan.days) return;
-
     const master = getMaster(state.activeLang);
+
+    // ✅ 단어가 0개면 플랜을 만들지 않음(오류 방지)
+    if(master.length === 0){
+      ls.plan = null;
+      saveState();
+      return;
+    }
+
+    // 이미 플랜이 있고, dailyCount가 같고, masterCount가 같으면 유지
     const dailyCount = ls.settings.dailyCount;
+    const signature = `${state.activeLang}|${dailyCount}|${master.length}`;
+    if(ls.plan && ls.plan.signature === signature && ls.plan.startDate && ls.plan.days) return;
+
     const totalNeed = dailyCount * 30;
-
     const startDate = isoDate();
-    const rnd = seededRandom(`plan|${state.activeLang}|${startDate}`);
+    const rnd = seededRandom(`plan|${signature}|${startDate}`);
 
-    // 가능한 한 중복 없이 30일치 구성
     const ids = master.map(w => w.id);
     const shuffled = shuffle(ids, rnd);
 
     let pool = shuffled.slice();
     if(pool.length < totalNeed){
-      // 모자라면 반복해서 채움(경고용)
-      const times = Math.ceil(totalNeed / Math.max(1, pool.length));
+      const times = Math.ceil(totalNeed / pool.length);
       pool = Array.from({length: times}, () => shuffled).flat().slice(0, totalNeed);
     } else {
       pool = pool.slice(0, totalNeed);
@@ -697,22 +739,24 @@
       days[dayDate] = chunk;
     }
 
-    ls.plan = { startDate, days };
+    ls.plan = { startDate, days, signature };
     saveState();
-  }
-
-  function hasPlanDay(dateStr){
-    ensurePlan();
-    const ls = langState();
-    return !!ls.plan?.days?.[dateStr];
   }
 
   function getPlannedList(dateStr){
     ensurePlan();
     const ls = langState();
     const master = getMaster(state.activeLang);
-    const ids = ls.plan.days[dateStr] ?? [];
+
+    // 플랜이 없거나 해당 날짜가 없으면 빈 배열
+    const ids = ls.plan?.days?.[dateStr] ?? [];
     return ids.map(id => master.find(w => w.id === id)).filter(Boolean);
+  }
+
+  function hasPlanDay(dateStr){
+    // ✅ “키만 있음”이 아니라 “실제 단어가 1개 이상”일 때만 true
+    const list = getPlannedList(dateStr);
+    return list.length > 0;
   }
 
   function getDailyProgress(dateStr){
@@ -783,6 +827,8 @@
     const tomorrowStr = addDaysIso(todayStr, 1);
     const showTomorrow = (done >= total) && hasPlanDay(tomorrowStr);
 
+    const masterCount = getMaster(state.activeLang).length;
+
     $('#view').innerHTML = `
       <div class="grid">
         <div class="card">
@@ -793,19 +839,27 @@
             <button class="langBtn" data-lang="ja">일본어</button>
             <button class="langBtn" data-lang="es">스페인어</button>
           </div>
-          <div class="notice">현재 선택: <b>${escapeHtml(langLabel)}</b></div>
+          <div class="notice">현재 선택: <b>${escapeHtml(langLabel)}</b> · 단어 수: <b>${masterCount}</b>개</div>
         </div>
 
         <div class="card">
           <h2>오늘 진행률</h2>
           <p class="sub">오늘(${formatKDate(new Date())}) 단어 ${total}개 중 <b>${done}</b>개 분류했어요.</p>
+
+          ${masterCount === 0 ? `
+            <div class="notice">
+              ⚠️ 현재 언어의 단어 목록이 비어 있어요.<br/>
+              같은 폴더에 <b>${escapeHtml(activeLangMeta().defaultFile)}</b> 파일을 올리거나, 설정에서 단어를 추가해줘.
+            </div>
+          ` : ``}
+
           <div class="tiles">
             <a class="tile" href="#" data-go="today">
               <div>
                 <strong>🔥 오늘의 단어</strong>
                 <div><span>단어 · IPA · 한글발음 · 뜻 · 예문</span></div>
               </div>
-              <div class="badge">${total}</div>
+              <div class="badge">${Math.min(total, masterCount)}</div>
             </a>
 
             ${showTomorrow ? `
@@ -814,7 +868,7 @@
                   <strong>⏭️ 내일의 단어</strong>
                   <div><span>오늘을 끝내면 열려요</span></div>
                 </div>
-                <div class="badge">${total}</div>
+                <div class="badge">${Math.min(total, masterCount)}</div>
               </a>
             ` : ``}
 
@@ -840,6 +894,7 @@
               <div class="badge">${due}</div>
             </a>
           </div>
+
           ${due > 0 ? `<div class="notice" style="margin-top:12px;">✅ 리와인드 대상 단어가 <b>${due}</b>개 있어요. (아는 단어 → 리와인드)</div>` : ``}
         </div>
 
@@ -858,9 +913,13 @@
 
     $$('.langBtn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.lang === state.activeLang);
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', async () => {
         state.activeLang = btn.dataset.lang;
         saveState();
+
+        // 언어 바꾸면 그 언어 기본팩도 있으면 자동 로드(처음 1회)
+        await loadDefaultPackIfMissing(state.activeLang);
+
         renderHome();
       });
     });
@@ -875,11 +934,30 @@
     const ls = langState();
     const langLabel = activeLangMeta().label;
 
-    // 30일 플랜(고정) 기반으로 리스트 가져오기
     const daily = getPlannedList(dateStr);
-
     const title = (kind === 'tomorrow') ? '내일의 단어' : '오늘의 단어';
     $('#subtitle').textContent = `${langLabel} · ${title} · 스와이프로 분류`;
+
+    // ✅ 단어가 없으면 안내
+    if(daily.length === 0){
+      $('#view').innerHTML = `
+        <div class="card">
+          <h2>${title}</h2>
+          <p class="sub">단어 목록이 비어 있어서 오늘의 단어를 만들 수 없어요.</p>
+          <div class="notice">
+            같은 폴더에 <b>${escapeHtml(activeLangMeta().defaultFile)}</b> 파일을 올리거나,<br/>
+            설정(⚙️)에서 단어를 추가해줘.
+          </div>
+          <div class="toolbar">
+            <button class="btn" id="goSettings">설정으로 가기</button>
+            <button class="btn" id="goHome">메인</button>
+          </div>
+        </div>
+      `;
+      $('#goSettings').addEventListener('click', () => setRoute('settings'));
+      $('#goHome').addEventListener('click', () => setRoute('home'));
+      return;
+    }
 
     const dp = getDailyProgress(dateStr);
     const doneSet = new Set(dp.doneIds);
@@ -1243,7 +1321,7 @@
             <button class="btn" id="btnImport">불러오기(JSON)</button>
             <button class="btn" id="btnUseBuiltIn">기본 단어로 되돌리기</button>
           </div>
-          <p class="small">* ‘추가’를 한 순간부터 이 언어의 오늘 단어에 포함될 수 있어. (오늘의 단어는 날짜 기반 랜덤)</p>
+          <p class="small">* ‘추가’를 한 순간부터 이 언어의 오늘 단어에 포함될 수 있어. (30일 플랜은 목록/개수에 따라 자동 생성)</p>
         </div>
 
         <div class="card">
@@ -1288,6 +1366,11 @@ ${escapeHtml(sample)}'></textarea>
             <button class="btn" id="btnSaveBulk">이 JSON으로 덮어쓰기</button>
             <button class="btn" id="btnCopySample">예시 복사</button>
           </div>
+          <div class="toolbar">
+            <button class="btn" id="btnRebuildPlan">30일 플랜 다시 만들기</button>
+            <button class="btn" id="btnTryLoadFile">파일 단어팩 다시 읽기</button>
+          </div>
+          <p class="small">파일은 같은 폴더의 <b>${escapeHtml(activeLangMeta().defaultFile)}</b>를 읽어와.</p>
         </div>
       </div>
     `;
@@ -1308,10 +1391,13 @@ ${escapeHtml(sample)}'></textarea>
         example
       };
 
-      // 기존 커스텀 있으면 append, 없으면 builtIn을 기반으로 새 커스텀 생성
       const base = loadCustomMaster(state.activeLang) ?? getMaster(state.activeLang);
       const next = base.concat([item]);
       saveCustomMaster(state.activeLang, next);
+
+      // 플랜 리셋(단어 추가되면 다시 구성)
+      langState().plan = null;
+      saveState();
 
       // clear
       $('#addWord').value = '';
@@ -1331,7 +1417,6 @@ ${escapeHtml(sample)}'></textarea>
         await navigator.clipboard.writeText(json);
         alert('클립보드에 복사했어. 메모/노트에 붙여넣기 해두면 백업 완료!');
       }catch{
-        // fallback: put into textarea
         $('#bulkJson').value = json;
         alert('아래 텍스트박스에 내보냈어. 복사해서 저장해줘.');
       }
@@ -1345,6 +1430,8 @@ ${escapeHtml(sample)}'></textarea>
         const parsed = JSON.parse(raw);
         if(!Array.isArray(parsed) || parsed.length === 0) throw new Error('bad');
         saveCustomMaster(state.activeLang, parsed);
+        langState().plan = null; // 플랜 리셋
+        saveState();
         alert('불러왔어! 새로고침 없이 바로 적용돼.');
         setRoute('settings');
       }catch{
@@ -1360,6 +1447,8 @@ ${escapeHtml(sample)}'></textarea>
         const parsed = JSON.parse(raw);
         if(!Array.isArray(parsed) || parsed.length === 0) throw new Error('bad');
         saveCustomMaster(state.activeLang, parsed);
+        langState().plan = null; // 플랜 리셋
+        saveState();
         alert('덮어쓰기 완료!');
         setRoute('settings');
       }catch{
@@ -1376,7 +1465,25 @@ ${escapeHtml(sample)}'></textarea>
     $('#btnUseBuiltIn').addEventListener('click', () => {
       if(!confirm('이 언어의 커스텀 단어목록을 지우고 기본 단어로 되돌릴까요?')) return;
       localStorage.removeItem(LS_CUSTOM_MASTER_PREFIX + state.activeLang);
+      langState().plan = null;
+      saveState();
       alert('기본 단어로 되돌렸어.');
+      setRoute('settings');
+    });
+
+    // rebuild plan button
+    $('#btnRebuildPlan').addEventListener('click', () => {
+      langState().plan = null;
+      saveState();
+      alert('30일 플랜을 다음 화면부터 새로 만들게 했어.');
+    });
+
+    // try load file pack again (manual)
+    $('#btnTryLoadFile').addEventListener('click', async () => {
+      // 강제로 파일로 덮어쓰고 싶으면 먼저 현재 커스텀을 지우는 게 안전
+      if(!confirm('파일 단어팩을 다시 읽을까요? (현재 커스텀이 있으면 덮어쓰지 않음)')) return;
+      const changed = await loadDefaultPackIfMissing(state.activeLang);
+      alert(changed ? '파일에서 기본 단어팩을 읽어왔어!' : '읽어올 파일이 없거나, 이미 커스텀 단어가 있어요.');
       setRoute('settings');
     });
 
@@ -1391,6 +1498,7 @@ ${escapeHtml(sample)}'></textarea>
     // dailyCount
     $$('[data-count]').forEach(btn => btn.addEventListener('click', () => {
       ls.settings.dailyCount = Number(btn.dataset.count);
+      langState().plan = null; // 개수 바뀌면 플랜 다시 생성
       saveState();
       $('#dailyCount').textContent = String(ls.settings.dailyCount);
       alert(`오늘 단어 개수를 ${ls.settings.dailyCount}개로 설정했어.`);
@@ -1450,11 +1558,10 @@ ${escapeHtml(sample)}'></textarea>
     };
   }
 
-  // ---------- Swipe helper ----------
+  // ---------- Mask + Swipe helper ----------
   function initMasking(root=document){
     const els = root.querySelectorAll?.('[data-mask]') ?? [];
     els.forEach(el => {
-      // default: masked (not revealed)
       if(!el.classList.contains('mask')) el.classList.add('mask');
       if(el.dataset.bound === '1') return;
       el.dataset.bound = '1';
@@ -1529,7 +1636,12 @@ ${escapeHtml(sample)}'></textarea>
   }
   window.addEventListener('hashchange', syncHash);
 
-  // initial
+  // ✅ 앱 시작: 기본팩 로드(있으면) → 화면 렌더
+  // 영어만 먼저라면 vocab_en.json만 있어도 됨.
+  await loadDefaultPackIfMissing('en');
+  await loadDefaultPackIfMissing('ja');
+  await loadDefaultPackIfMissing('es');
+
   syncHash();
   if(!location.hash) setRoute('home');
 
