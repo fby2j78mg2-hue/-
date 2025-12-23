@@ -481,5 +481,333 @@
     "koPron": "얼티밋",
     "meaningKo": "궁극적인",
     "example": "This is our ultimate goal."
+  },
+  {
+    "id": "en_0060",
+    "word": "adjust",
+    "ipa": "/əˈdʒʌst/",
+    "koPron": "어저스트",
+    "meaningKo": "조절하다, 적응하다",
+    "example": "You can adjust the height of the chair."
+  },
+  {
+    "id": "en_0061",
+    "word": "budget",
+    "ipa": "/ˈbʌdʒɪt/",
+    "koPron": "버짓",
+    "meaningKo": "예산",
+    "example": "We have a limited budget for this project."
+  },
+  {
+    "id": "en_0062",
+    "word": "cancel",
+    "ipa": "/ˈkænsəl/",
+    "koPron": "캔슬",
+    "meaningKo": "취소하다",
+    "example": "The flight was canceled due to rain."
+  },
+  {
+    "id": "en_0063",
+    "word": "defend",
+    "ipa": "/dɪˈfɛnd/",
+    "koPron": "디펜드",
+    "meaningKo": "방어하다, 변호하다",
+    "example": "He tried to defend himself against the attack."
+  },
+  {
+    "id": "en_0064",
+    "word": "empire",
+    "ipa": "/ˈɛmpaɪər/",
+    "koPron": "엠파이어",
+    "meaningKo": "제국",
+    "example": "The Roman Empire was vast and powerful."
+  },
+  {
+    "id": "en_0065",
+    "word": "formal",
+    "ipa": "/ˈfɔːrml/",
+    "koPron": "포멀",
+    "meaningKo": "공식적인, 격식을 차린",
+    "example": "You should wear formal clothes to the wedding."
+  },
+  {
+    "id": "en_0066",
+    "word": "greedy",
+    "ipa": "/ˈɡriːdi/",
+    "koPron": "그리디",
+    "meaningKo": "탐욕스러운",
+    "example": "Don't be so greedy with the food."
+  },
+  {
+    "id": "en_0067",
+    "word": "honest",
+    "ipa": "/ˈɒnɪst/",
+    "koPron": "어니스트",
+    "meaningKo": "정직한",
+    "example": "To be honest, I don't like it."
+  },
+  {
+    "id": "en_0068",
+    "word": "income",
+    "ipa": "/ˈɪnkʌm/",
+    "koPron": "인컴",
+    "meaningKo": "수입, 소득",
+    "example": "His income has increased significantly."
+  },
+  {
+    "id": "en_0069",
+    "word": "junior",
+    "ipa": "/ˈdʒuːniər/",
+    "koPron": "주니어",
+    "meaningKo": "하급의, 후배, 연소자",
+    "example": "He is a junior employee at the firm."
+  },
+  {
+    "id": "en_0070",
+    "word": "kidney",
+    "ipa": "/ˈkɪdni/",
+    "koPron": "키드니",
+    "meaningKo": "신장(콩팥)",
+    "example": "She donated a kidney to her sister."
+  },
+  {
+    "id": "en_0071",
+    "word": "legend",
+    "ipa": "/ˈlɛdʒənd/",
+    "koPron": "레전드",
+    "meaningKo": "전설",
+    "example": "The legend of King Arthur is famous."
+  },
+  {
+    "id": "en_0072",
+    "word": "method",
+    "ipa": "/ˈmɛθəd/",
+    "koPron": "메소드",
+    "meaningKo": "방법, 방식",
+    "example": "We need to find a new method."
+  },
+  {
+    "id": "en_0073",
+    "word": "narrow",
+    "ipa": "/ˈnæroʊ/",
+    "koPron": "내로",
+    "meaningKo": "좁은",
+    "example": "The road is very narrow here."
+  },
+  {
+    "id": "en_0074",
+    "word": "oppose",
+    "ipa": "/əˈpoʊz/",
+    "koPron": "어포즈",
+    "meaningKo": "반대하다",
+    "example": "Many people oppose the new law."
+  },
+  {
+    "id": "en_0075",
+    "word": "parade",
+    "ipa": "/pəˈreɪd/",
+    "koPron": "퍼레이드",
+    "meaningKo": "행진, 퍼레이드",
+    "example": "We watched the street parade."
+  },
+  {
+    "id": "en_0076",
+    "word": "recall",
+    "ipa": "/rɪˈkɔːl/",
+    "koPron": "리콜",
+    "meaningKo": "기억해내다, 소환하다",
+    "example": "I can't recall where I put my keys."
+  },
+  {
+    "id": "en_0077",
+    "word": "remind",
+    "ipa": "/rɪˈmaɪnd/",
+    "koPron": "리마인드",
+    "meaningKo": "상기시키다",
+    "example": "Please remind me to call him later."
+  },
+  {
+    "id": "en_0078",
+    "word": "severe",
+    "ipa": "/sɪˈvɪər/",
+    "koPron": "시비어",
+    "meaningKo": "심각한, 가혹한",
+    "example": "He suffered a severe injury."
+  },
+  {
+    "id": "en_0079",
+    "word": "theory",
+    "ipa": "/ˈθɪəri/",
+    "koPron": "시어리",
+    "meaningKo": "이론",
+    "example": "He is studying the theory of relativity."
+  },
+  {
+    "id": "en_0080",
+    "word": "unique",
+    "ipa": "/juˈniːk/",
+    "koPron": "유니크",
+    "meaningKo": "독특한, 유일한",
+    "example": "Each person's fingerprint is unique."
+  },
+  {
+    "id": "en_0081",
+    "word": "vacant",
+    "ipa": "/ˈveɪkənt/",
+    "koPron": "베이컨트",
+    "meaningKo": "비어있는",
+    "example": "Is this seat vacant?"
+  },
+  {
+    "id": "en_0082",
+    "word": "wealth",
+    "ipa": "/wɛlθ/",
+    "koPron": "웰스",
+    "meaningKo": "부, 재산",
+    "example": "Health is better than wealth."
+  },
+  {
+    "id": "en_0083",
+    "word": "absorb",
+    "ipa": "/əbˈzɔːrb/",
+    "koPron": "업조브",
+    "meaningKo": "흡수하다",
+    "example": "Sponges absorb water easily."
+  },
+  {
+    "id": "en_0084",
+    "word": "belong",
+    "ipa": "/bɪˈlɔːŋ/",
+    "koPron": "빌롱",
+    "meaningKo": "~에 속하다",
+    "example": "This book belongs to me."
+  },
+  {
+    "id": "en_0085",
+    "word": "client",
+    "ipa": "/ˈklaɪənt/",
+    "koPron": "클라이언트",
+    "meaningKo": "고객, 의뢰인",
+    "example": "He is in a meeting with a client."
+  },
+  {
+    "id": "en_0086",
+    "word": "desire",
+    "ipa": "/dɪˈzaɪər/",
+    "koPron": "디자이어",
+    "meaningKo": "욕망, 바라다",
+    "example": "She has a strong desire to win."
+  },
+  {
+    "id": "en_0087",
+    "word": "expand",
+    "ipa": "/ɪkˈspænd/",
+    "koPron": "익스팬드",
+    "meaningKo": "확장하다, 넓히다",
+    "example": "The company plans to expand its business."
+  },
+  {
+    "id": "en_0088",
+    "word": "fellow",
+    "ipa": "/ˈfɛloʊ/",
+    "koPron": "펠로우",
+    "meaningKo": "동료, 친구",
+    "example": "He is a popular fellow at school."
+  },
+  {
+    "id": "en_0089",
+    "word": "garage",
+    "ipa": "/ɡəˈrɑːʒ/",
+    "koPron": "개러지",
+    "meaningKo": "차고",
+    "example": "I parked the car in the garage."
+  },
+  {
+    "id": "en_0090",
+    "word": "hollow",
+    "ipa": "/ˈhɒloʊ/",
+    "koPron": "할로우",
+    "meaningKo": "속이 빈",
+    "example": "The old tree trunk was hollow."
+  },
+  {
+    "id": "en_0091",
+    "word": "injure",
+    "ipa": "/ˈɪndʒər/",
+    "koPron": "인저",
+    "meaningKo": "다치게 하다",
+    "example": "He injured his leg while playing soccer."
+  },
+  {
+    "id": "en_0092",
+    "word": "jungle",
+    "ipa": "/ˈdʒʌŋɡl/",
+    "koPron": "정글",
+    "meaningKo": "밀림, 정글",
+    "example": "The lion is known as the king of the jungle."
+  },
+  {
+    "id": "en_0093",
+    "word": "ladder",
+    "ipa": "/ˈlædər/",
+    "koPron": "래더",
+    "meaningKo": "사다리",
+    "example": "He climbed up the ladder to paint the wall."
+  },
+  {
+    "id": "en_0094",
+    "word": "museum",
+    "ipa": "/mjuˈziːəm/",
+    "koPron": "뮤지엄",
+    "meaningKo": "박물관",
+    "example": "We visited the art museum yesterday."
+  },
+  {
+    "id": "en_0095",
+    "word": "notion",
+    "ipa": "/ˈnoʊʃn/",
+    "koPron": "노션",
+    "meaningKo": "개념, 관념",
+    "example": "I have no notion of what you mean."
+  },
+  {
+    "id": "en_0096",
+    "word": "origin",
+    "ipa": "/ˈɔːrɪdʒɪn/",
+    "koPron": "오리진",
+    "meaningKo": "기원, 출신",
+    "example": "The origin of the fire is unknown."
+  },
+  {
+    "id": "en_0097",
+    "word": "permit",
+    "ipa": "/pərˈmɪt/",
+    "koPron": "퍼밋",
+    "meaningKo": "허락하다, 허가증",
+    "example": "Smoking is not permitted in this area."
+  },
+  {
+    "id": "en_0098",
+    "word": "reform",
+    "ipa": "/rɪˈfɔːrm/",
+    "koPron": "리폼",
+    "meaningKo": "개혁하다, 개선하다",
+    "example": "They want to reform the tax system."
+  },
+  {
+    "id": "en_0099",
+    "word": "select",
+    "ipa": "/sɪˈlɛkt/",
+    "koPron": "셀렉트",
+    "meaningKo": "선택하다, 선발된",
+    "example": "Please select the best option."
+  },
+  {
+    "id": "en_0100",
+    "word": "tragic",
+    "ipa": "/ˈtrædʒɪk/",
+    "koPron": "트래직",
+    "meaningKo": "비극적인",
+    "example": "It was a tragic accident."
   }
 ]
