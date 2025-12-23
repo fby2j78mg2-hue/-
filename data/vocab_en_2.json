@@ -798,5 +798,1605 @@
     "koPron": "프레임",
     "meaningKo": "틀, 액자",
     "example": "I bought a nice frame for the picture."
+  },
+  {
+    "id": "en_0201",
+    "word": "ability",
+    "ipa": "/əˈbɪləti/",
+    "koPron": "어빌리티",
+    "meaningKo": "능력, 재능",
+    "example": "He has the ability to learn quickly."
+  },
+  {
+    "id": "en_0202",
+    "word": "balance",
+    "ipa": "/ˈbæləns/",
+    "koPron": "밸런스",
+    "meaningKo": "균형, 잔고",
+    "example": "Try to keep a balance between work and life."
+  },
+  {
+    "id": "en_0203",
+    "word": "capital",
+    "ipa": "/ˈkæpɪtl/",
+    "koPron": "캐피털",
+    "meaningKo": "수도, 자본, 대문자",
+    "example": "Paris is the capital of France."
+  },
+  {
+    "id": "en_0204",
+    "word": "debate",
+    "ipa": "/dɪˈbeɪt/",
+    "koPron": "디베이트",
+    "meaningKo": "토론, 논쟁",
+    "example": "They held a debate on environmental issues."
+  },
+  {
+    "id": "en_0205",
+    "word": "edit",
+    "ipa": "/ˈɛdɪt/",
+    "koPron": "에디트",
+    "meaningKo": "편집하다, 수정하다",
+    "example": "He needs to edit the video before posting."
+  },
+  {
+    "id": "en_0206",
+    "word": "feature",
+    "ipa": "/ˈfiːtʃər/",
+    "koPron": "피처",
+    "meaningKo": "특징, 특집",
+    "example": "This phone has many new features."
+  },
+  {
+    "id": "en_0207",
+    "word": "general",
+    "ipa": "/ˈdʒɛnərəl/",
+    "koPron": "제너럴",
+    "meaningKo": "일반적인, 장군",
+    "example": "In general, I agree with you."
+  },
+  {
+    "id": "en_0208",
+    "word": "harvest",
+    "ipa": "/ˈhɑːrvɪst/",
+    "koPron": "하비스트",
+    "meaningKo": "수확, 추수하다",
+    "example": "Farmers harvest crops in the fall."
+  },
+  {
+    "id": "en_0209",
+    "word": "impact",
+    "ipa": "/ˈɪmpækt/",
+    "koPron": "임팩트",
+    "meaningKo": "영향, 충격",
+    "example": "The speech had a great impact on me."
+  },
+  {
+    "id": "en_0210",
+    "word": "justice",
+    "ipa": "/ˈdʒʌstɪs/",
+    "koPron": "저스티스",
+    "meaningKo": "정의, 사법",
+    "example": "They demanded justice for the victim."
+  },
+  {
+    "id": "en_0211",
+    "word": "label",
+    "ipa": "/ˈleɪbl/",
+    "koPron": "레이블",
+    "meaningKo": "라벨, 꼬리표",
+    "example": "Check the label for washing instructions."
+  },
+  {
+    "id": "en_0212",
+    "word": "manner",
+    "ipa": "/ˈmænər/",
+    "koPron": "매너",
+    "meaningKo": "방식, 태도",
+    "example": "He behaved in a polite manner."
+  },
+  {
+    "id": "en_0213",
+    "word": "narrow",
+    "ipa": "/ˈnæroʊ/",
+    "koPron": "내로",
+    "meaningKo": "좁은, 좁아지다",
+    "example": "The path became narrow near the cliff."
+  },
+  {
+    "id": "en_0214",
+    "word": "object",
+    "ipa": "/ˈɒbdʒɛkt/",
+    "koPron": "오브젝트",
+    "meaningKo": "물체, 목적, 반대하다",
+    "example": "What is that object on the table?"
+  },
+  {
+    "id": "en_0215",
+    "word": "panel",
+    "ipa": "/ˈpænl/",
+    "koPron": "패널",
+    "meaningKo": "패널, 판, 위원단",
+    "example": "Solar panels are installed on the roof."
+  },
+  {
+    "id": "en_0216",
+    "word": "quarter",
+    "ipa": "/ˈkwɔːrtər/",
+    "koPron": "쿼터",
+    "meaningKo": "4분의 1, 분기",
+    "example": "He ate a quarter of the pizza."
+  },
+  {
+    "id": "en_0217",
+    "word": "range",
+    "ipa": "/reɪndʒ/",
+    "koPron": "레인지",
+    "meaningKo": "범위, 다양성",
+    "example": "The store offers a wide range of products."
+  },
+  {
+    "id": "en_0218",
+    "word": "salary",
+    "ipa": "/ˈsæləri/",
+    "koPron": "샐러리",
+    "meaningKo": "급여, 봉급",
+    "example": "She receives a monthly salary."
+  },
+  {
+    "id": "en_0219",
+    "word": "talent",
+    "ipa": "/ˈtælənt/",
+    "koPron": "탤런트",
+    "meaningKo": "재능",
+    "example": "He has a talent for music."
+  },
+  {
+    "id": "en_0220",
+    "word": "union",
+    "ipa": "/ˈjuːniən/",
+    "koPron": "유니언",
+    "meaningKo": "연합, 조합",
+    "example": "The trade union called for a strike."
+  },
+  {
+    "id": "en_0221",
+    "word": "valid",
+    "ipa": "/ˈvælɪd/",
+    "koPron": "밸리드",
+    "meaningKo": "유효한, 타당한",
+    "example": "Your passport is no longer valid."
+  },
+  {
+    "id": "en_0222",
+    "word": "wander",
+    "ipa": "/ˈwɒndər/",
+    "koPron": "원더",
+    "meaningKo": "거닐다, 헤매다",
+    "example": "We wandered around the city all day."
+  },
+  {
+    "id": "en_0223",
+    "word": "zeal",
+    "ipa": "/ziːl/",
+    "koPron": "질",
+    "meaningKo": "열의, 열성",
+    "example": "She showed great zeal for her work."
+  },
+  {
+    "id": "en_0224",
+    "word": "access",
+    "ipa": "/ˈæksɛs/",
+    "koPron": "액세스",
+    "meaningKo": "접근, 입장",
+    "example": "Do you have access to the internet?"
+  },
+  {
+    "id": "en_0225",
+    "word": "basis",
+    "ipa": "/ˈbeɪsɪs/",
+    "koPron": "베이시스",
+    "meaningKo": "기초, 근거",
+    "example": "We meet on a regular basis."
+  },
+  {
+    "id": "en_0226",
+    "word": "canal",
+    "ipa": "/kəˈnæl/",
+    "koPron": "커낼",
+    "meaningKo": "운하, 수로",
+    "example": "Boats travel along the canal."
+  },
+  {
+    "id": "en_0227",
+    "word": "decay",
+    "ipa": "/dɪˈkeɪ/",
+    "koPron": "디케이",
+    "meaningKo": "부패하다, 쇠퇴",
+    "example": "Sugar can cause teeth to decay."
+  },
+  {
+    "id": "en_0228",
+    "word": "effect",
+    "ipa": "/ɪˈfɛkt/",
+    "koPron": "이펙트",
+    "meaningKo": "영향, 효과",
+    "example": "The medicine had an immediate effect."
+  },
+  {
+    "id": "en_0229",
+    "word": "fatal",
+    "ipa": "/ˈfeɪtl/",
+    "koPron": "페이틀",
+    "meaningKo": "치명적인",
+    "example": "It was a fatal mistake."
+  },
+  {
+    "id": "en_0230",
+    "word": "genre",
+    "ipa": "/ˈʒɒnrə/",
+    "koPron": "장르",
+    "meaningKo": "장르, 유형",
+    "example": "What is your favorite movie genre?"
+  },
+  {
+    "id": "en_0231",
+    "word": "hazard",
+    "ipa": "/ˈhæzərd/",
+    "koPron": "해저드",
+    "meaningKo": "위험, 모험",
+    "example": "Smoking is a serious health hazard."
+  },
+  {
+    "id": "en_0232",
+    "word": "impose",
+    "ipa": "/ɪmˈpoʊz/",
+    "koPron": "임포즈",
+    "meaningKo": "부과하다, 강요하다",
+    "example": "The government imposed a new tax."
+  },
+  {
+    "id": "en_0233",
+    "word": "jolly",
+    "ipa": "/ˈdʒɒli/",
+    "koPron": "졸리",
+    "meaningKo": "명랑한, 즐거운",
+    "example": "He had a jolly smile on his face."
+  },
+  {
+    "id": "en_0234",
+    "word": "keen",
+    "ipa": "/kiːn/",
+    "koPron": "킨",
+    "meaningKo": "열정적인, 날카로운",
+    "example": "She is keen on learning new languages."
+  },
+  {
+    "id": "en_0235",
+    "word": "lately",
+    "ipa": "/ˈleɪtli/",
+    "koPron": "레이틀리",
+    "meaningKo": "최근에",
+    "example": "Have you seen him lately?"
+  },
+  {
+    "id": "en_0236",
+    "word": "margin",
+    "ipa": "/ˈmɑːrdʒɪn/",
+    "koPron": "마진",
+    "meaningKo": "여백, 가장자리, 차이",
+    "example": "Please write in the margin."
+  },
+  {
+    "id": "en_0237",
+    "word": "nasty",
+    "ipa": "/ˈnæsti/",
+    "koPron": "내스티",
+    "meaningKo": "끔찍한, 못된",
+    "example": "There was a nasty smell in the room."
+  },
+  {
+    "id": "en_0238",
+    "word": "occupy",
+    "ipa": "/ˈɒkjupaɪ/",
+    "koPron": "아큐파이",
+    "meaningKo": "차지하다, 점령하다",
+    "example": "Work occupies most of my time."
+  },
+  {
+    "id": "en_0239",
+    "word": "patent",
+    "ipa": "/ˈpætnt/",
+    "koPron": "패턴트",
+    "meaningKo": "특허",
+    "example": "He applied for a patent for his invention."
+  },
+  {
+    "id": "en_0240",
+    "word": "quest",
+    "ipa": "/kwɛst/",
+    "koPron": "퀘스트",
+    "meaningKo": "탐구, 탐색",
+    "example": "They went on a quest for gold."
+  },
+  {
+    "id": "en_0241",
+    "word": "random",
+    "ipa": "/ˈrændəm/",
+    "koPron": "랜덤",
+    "meaningKo": "무작위의",
+    "example": "The winner was chosen at random."
+  },
+  {
+    "id": "en_0242",
+    "word": "sauce",
+    "ipa": "/sɔːs/",
+    "koPron": "소스",
+    "meaningKo": "소스, 양념",
+    "example": "I like pasta with tomato sauce."
+  },
+  {
+    "id": "en_0243",
+    "word": "tactic",
+    "ipa": "/ˈtæktɪk/",
+    "koPron": "택틱",
+    "meaningKo": "전술, 전략",
+    "example": "Changing the price was a marketing tactic."
+  },
+  {
+    "id": "en_0244",
+    "word": "urban",
+    "ipa": "/ˈɜːrbən/",
+    "koPron": "어반",
+    "meaningKo": "도시의",
+    "example": "Urban areas are often crowded."
+  },
+  {
+    "id": "en_0245",
+    "word": "vacation",
+    "ipa": "/veɪˈkeɪʃn/",
+    "koPron": "베이케이션",
+    "meaningKo": "휴가, 방학",
+    "example": "We are going on vacation next week."
+  },
+  {
+    "id": "en_0246",
+    "word": "wage",
+    "ipa": "/weɪdʒ/",
+    "koPron": "웨이지",
+    "meaningKo": "임금, 급료",
+    "example": "Minimum wage has increased this year."
+  },
+  {
+    "id": "en_0247",
+    "word": "yield",
+    "ipa": "/jiːld/",
+    "koPron": "일드",
+    "meaningKo": "양보하다, 산출하다",
+    "example": "Drivers must yield to pedestrians."
+  },
+  {
+    "id": "en_0248",
+    "word": "zenith",
+    "ipa": "/ˈziːnɪθ/",
+    "koPron": "제니스",
+    "meaningKo": "정점, 절정",
+    "example": "He is at the zenith of his career."
+  },
+  {
+    "id": "en_0249",
+    "word": "admire",
+    "ipa": "/ədˈmaɪər/",
+    "koPron": "어드마이어",
+    "meaningKo": "존경하다, 감탄하다",
+    "example": "I admire her courage."
+  },
+  {
+    "id": "en_0250",
+    "word": "behave",
+    "ipa": "/bɪˈheɪv/",
+    "koPron": "비헤이브",
+    "meaningKo": "행동하다, 처신하다",
+    "example": "Please behave yourself at the party."
+  },
+  {
+    "id": "en_0251",
+    "word": "capture",
+    "ipa": "/ˈkæptʃər/",
+    "koPron": "캡처",
+    "meaningKo": "포획하다, 캡처하다",
+    "example": "The camera captured the moment perfectly."
+  },
+  {
+    "id": "en_0252",
+    "word": "defeat",
+    "ipa": "/dɪˈfiːt/",
+    "koPron": "디피트",
+    "meaningKo": "패배시키다, 패배",
+    "example": "Our team admitted defeat."
+  },
+  {
+    "id": "en_0253",
+    "word": "effort",
+    "ipa": "/ˈɛfərt/",
+    "koPron": "에포트",
+    "meaningKo": "노력",
+    "example": "It takes a lot of effort to learn a language."
+  },
+  {
+    "id": "en_0254",
+    "word": "fabric",
+    "ipa": "/ˈfæbrɪk/",
+    "koPron": "패브릭",
+    "meaningKo": "직물, 천",
+    "example": "This fabric is soft and durable."
+  },
+  {
+    "id": "en_0255",
+    "word": "gain",
+    "ipa": "/ɡeɪn/",
+    "koPron": "게인",
+    "meaningKo": "얻다, 이익",
+    "example": "He gained a lot of weight recently."
+  },
+  {
+    "id": "en_0256",
+    "word": "halt",
+    "ipa": "/hɔːlt/",
+    "koPron": "홀트",
+    "meaningKo": "멈추다, 중단",
+    "example": "The bus came to a sudden halt."
+  },
+  {
+    "id": "en_0257",
+    "word": "ideal",
+    "ipa": "/aɪˈdiːəl/",
+    "koPron": "아이디얼",
+    "meaningKo": "이상적인",
+    "example": "It was an ideal place for a picnic."
+  },
+  {
+    "id": "en_0258",
+    "word": "jail",
+    "ipa": "/dʒeɪl/",
+    "koPron": "제일",
+    "meaningKo": "감옥",
+    "example": "He was sent to jail for robbery."
+  },
+  {
+    "id": "en_0259",
+    "word": "knit",
+    "ipa": "/nɪt/",
+    "koPron": "닛",
+    "meaningKo": "뜨개질하다",
+    "example": "My grandmother knitted this sweater for me."
+  },
+  {
+    "id": "en_0260",
+    "word": "lack",
+    "ipa": "/læk/",
+    "koPron": "랙",
+    "meaningKo": "부족, 결핍",
+    "example": "His failure was due to a lack of effort."
+  },
+  {
+    "id": "en_0261",
+    "word": "magnify",
+    "ipa": "/ˈmæɡnɪfaɪ/",
+    "koPron": "매그니파이",
+    "meaningKo": "확대하다",
+    "example": "The lens magnifies the image ten times."
+  },
+  {
+    "id": "en_0262",
+    "word": "naked",
+    "ipa": "/ˈneɪkɪd/",
+    "koPron": "네이키드",
+    "meaningKo": "벌거벗은, 육안의",
+    "example": "The star is visible to the naked eye."
+  },
+  {
+    "id": "en_0263",
+    "word": "oasis",
+    "ipa": "/oʊˈeɪsɪs/",
+    "koPron": "오아시스",
+    "meaningKo": "오아시스, 안식처",
+    "example": "The park is an oasis in the city."
+  },
+  {
+    "id": "en_0264",
+    "word": "pace",
+    "ipa": "/peɪs/",
+    "koPron": "페이스",
+    "meaningKo": "속도, 걸음",
+    "example": "He walked at a fast pace."
+  },
+  {
+    "id": "en_0265",
+    "word": "quake",
+    "ipa": "/kweɪk/",
+    "koPron": "퀘이크",
+    "meaningKo": "떨다, 진동",
+    "example": "The ground began to quake during the tremor."
+  },
+  {
+    "id": "en_0266",
+    "word": "radical",
+    "ipa": "/ˈrædɪkl/",
+    "koPron": "래디컬",
+    "meaningKo": "급진적인, 근본적인",
+    "example": "We need to make radical changes."
+  },
+  {
+    "id": "en_0267",
+    "word": "sacred",
+    "ipa": "/ˈseɪkrɪd/",
+    "koPron": "세이크리드",
+    "meaningKo": "신성한",
+    "example": "Cows are considered sacred in some cultures."
+  },
+  {
+    "id": "en_0268",
+    "word": "tablet",
+    "ipa": "/ˈtæblɪt/",
+    "koPron": "태블릿",
+    "meaningKo": "알약, 태블릿 PC",
+    "example": "Take one tablet three times a day."
+  },
+  {
+    "id": "en_0269",
+    "word": "ultimate",
+    "ipa": "/ˈʌltɪmət/",
+    "koPron": "얼티밋",
+    "meaningKo": "궁극적인, 최후의",
+    "example": "Our ultimate goal is peace."
+  },
+  {
+    "id": "en_0270",
+    "word": "vacuum",
+    "ipa": "/ˈvækjuːm/",
+    "koPron": "배큐엄",
+    "meaningKo": "진공, 청소하다",
+    "example": "Space is a vacuum."
+  },
+  {
+    "id": "en_0271",
+    "word": "ward",
+    "ipa": "/wɔːrd/",
+    "koPron": "워드",
+    "meaningKo": "병동, 감방",
+    "example": "She works in the maternity ward."
+  },
+  {
+    "id": "en_0272",
+    "word": "youngster",
+    "ipa": "/ˈjʌŋstər/",
+    "koPron": "영스터",
+    "meaningKo": "젊은이, 청소년",
+    "example": "The park was full of youngsters playing."
+  },
+  {
+    "id": "en_0273",
+    "word": "zombie",
+    "ipa": "/ˈzɒmbi/",
+    "koPron": "좀비",
+    "meaningKo": "좀비, 무기력한 사람",
+    "example": "I felt like a zombie after staying up all night."
+  },
+  {
+    "id": "en_0274",
+    "word": "abandon",
+    "ipa": "/əˈbændən/",
+    "koPron": "어밴던",
+    "meaningKo": "버리다, 포기하다",
+    "example": "They had to abandon the sinking ship."
+  },
+  {
+    "id": "en_0275",
+    "word": "barrier",
+    "ipa": "/ˈbæriər/",
+    "koPron": "배리어",
+    "meaningKo": "장벽, 장애물",
+    "example": "Language can be a barrier to communication."
+  },
+  {
+    "id": "en_0276",
+    "word": "cabinet",
+    "ipa": "/ˈkæbɪnət/",
+    "koPron": "캐비닛",
+    "meaningKo": "보관장, 내각",
+    "example": "The files are in the filing cabinet."
+  },
+  {
+    "id": "en_0277",
+    "word": "deadline",
+    "ipa": "/ˈdɛdlaɪn/",
+    "koPron": "데드라인",
+    "meaningKo": "마감 기한",
+    "example": "The deadline for the project is tomorrow."
+  },
+  {
+    "id": "en_0278",
+    "word": "eager",
+    "ipa": "/ˈiːɡər/",
+    "koPron": "이거",
+    "meaningKo": "열망하는, 간절한",
+    "example": "He was eager to please his parents."
+  },
+  {
+    "id": "en_0279",
+    "word": "faint",
+    "ipa": "/feɪnt/",
+    "koPron": "페인트",
+    "meaningKo": "희미한, 기절하다",
+    "example": "I felt faint from hunger."
+  },
+  {
+    "id": "en_0280",
+    "word": "garment",
+    "ipa": "/ˈɡɑːrmənt/",
+    "koPron": "가먼트",
+    "meaningKo": "의복, 옷",
+    "example": "This garment is made of silk."
+  },
+  {
+    "id": "en_0281",
+    "word": "harbor",
+    "ipa": "/ˈhɑːrbər/",
+    "koPron": "하버",
+    "meaningKo": "항구, 피난처",
+    "example": "The ships are docked in the harbor."
+  },
+  {
+    "id": "en_0282",
+    "word": "identical",
+    "ipa": "/aɪˈdɛntɪkl/",
+    "koPron": "아이덴티컬",
+    "meaningKo": "동일한, 일란성의",
+    "example": "They are identical twins."
+  },
+  {
+    "id": "en_0283",
+    "word": "jealous",
+    "ipa": "/ˈdʒɛləs/",
+    "koPron": "젤러스",
+    "meaningKo": "질투하는",
+    "example": "He was jealous of his brother's success."
+  },
+  {
+    "id": "en_0284",
+    "word": "kidnap",
+    "ipa": "/ˈkɪdnæp/",
+    "koPron": "키드냅",
+    "meaningKo": "납치하다",
+    "example": "The millionaire's son was kidnapped."
+  },
+  {
+    "id": "en_0285",
+    "word": "landscape",
+    "ipa": "/ˈlændskeɪp/",
+    "koPron": "랜드스케이프",
+    "meaningKo": "풍경, 조경",
+    "example": "The landscape was breathtaking."
+  },
+  {
+    "id": "en_0286",
+    "word": "maintain",
+    "ipa": "/meɪnˈteɪn/",
+    "koPron": "메인테인",
+    "meaningKo": "유지하다, 주장하다",
+    "example": "You need to maintain a healthy weight."
+  },
+  {
+    "id": "en_0287",
+    "word": "nation",
+    "ipa": "/ˈneɪʃn/",
+    "koPron": "네이션",
+    "meaningKo": "국가, 국민",
+    "example": "The whole nation celebrated the victory."
+  },
+  {
+    "id": "en_0288",
+    "word": "obedient",
+    "ipa": "/əˈbiːdiənt/",
+    "koPron": "오비디언트",
+    "meaningKo": "순종적인, 말을 잘 듣는",
+    "example": "The dog is very obedient."
+  },
+  {
+    "id": "en_0289",
+    "word": "parallel",
+    "ipa": "/ˈpærələl/",
+    "koPron": "패럴렐",
+    "meaningKo": "평행한, 유사한",
+    "example": "The two roads run parallel to each other."
+  },
+  {
+    "id": "en_0290",
+    "word": "qualify",
+    "ipa": "/ˈkwɒlɪfaɪ/",
+    "koPron": "퀄리파이",
+    "meaningKo": "자격을 얻다, 예선을 통과하다",
+    "example": "Did the team qualify for the final?"
+  },
+  {
+    "id": "en_0291",
+    "word": "rational",
+    "ipa": "/ˈræʃənl/",
+    "koPron": "래셔널",
+    "meaningKo": "이성적인, 합리적인",
+    "example": "Let's make a rational decision."
+  },
+  {
+    "id": "en_0292",
+    "word": "scandal",
+    "ipa": "/ˈskændl/",
+    "koPron": "스캔들",
+    "meaningKo": "추문, 스캔들",
+    "example": "The politician was involved in a scandal."
+  },
+  {
+    "id": "en_0293",
+    "word": "target",
+    "ipa": "/ˈtɑːrɡɪt/",
+    "koPron": "타겟",
+    "meaningKo": "목표, 표적",
+    "example": "Our target audience is teenagers."
+  },
+  {
+    "id": "en_0294",
+    "word": "ultimate",
+    "ipa": "/ˈʌltɪmət/",
+    "koPron": "얼티밋",
+    "meaningKo": "최후의, 궁극적인",
+    "example": "The ultimate decision is yours."
+  },
+  {
+    "id": "en_0295",
+    "word": "valley",
+    "ipa": "/ˈvæli/",
+    "koPron": "밸리",
+    "meaningKo": "계곡",
+    "example": "The river flows through the valley."
+  },
+  {
+    "id": "en_0296",
+    "word": "welfare",
+    "ipa": "/ˈwɛlfɛər/",
+    "koPron": "웰페어",
+    "meaningKo": "복지, 안녕",
+    "example": "The state is responsible for social welfare."
+  },
+  {
+    "id": "en_0297",
+    "word": "xenophobia",
+    "ipa": "/ˌzɛnəˈfoʊbiə/",
+    "koPron": "제노포비아",
+    "meaningKo": "외국인 혐오",
+    "example": "Education can help reduce xenophobia."
+  },
+  {
+    "id": "en_0298",
+    "word": "yacht",
+    "ipa": "/jɒt/",
+    "koPron": "요트",
+    "meaningKo": "요트",
+    "example": "They sailed around the island on a yacht."
+  },
+  {
+    "id": "en_0299",
+    "word": "zone",
+    "ipa": "/zoʊn/",
+    "koPron": "존",
+    "meaningKo": "구역, 지대",
+    "example": "This is a smoke-free zone."
+  },
+  {
+    "id": "en_0300",
+    "word": "abolish",
+    "ipa": "/əˈbɒlɪʃ/",
+    "koPron": "어볼리시",
+    "meaningKo": "폐지하다",
+    "example": "Slavery was abolished in the 19th century."
+  },
+  {
+    "id": "en_0301",
+    "word": "banish",
+    "ipa": "/ˈbænɪʃ/",
+    "koPron": "배니시",
+    "meaningKo": "추방하다, 내쫓다",
+    "example": "He was banished from his country for his crimes."
+  },
+  {
+    "id": "en_0302",
+    "word": "calculate",
+    "ipa": "/ˈkælkjuleɪt/",
+    "koPron": "캘큘레이트",
+    "meaningKo": "계산하다, 산출하다",
+    "example": "We need to calculate the total cost."
+  },
+  {
+    "id": "en_0303",
+    "word": "damage",
+    "ipa": "/ˈdæmɪdʒ/",
+    "koPron": "대미지",
+    "meaningKo": "손상, 피해를 입히다",
+    "example": "The storm caused a lot of damage to the roof."
+  },
+  {
+    "id": "en_0304",
+    "word": "eagerly",
+    "ipa": "/ˈiːɡərli/",
+    "koPron": "이걸리",
+    "meaningKo": "간절히, 열심히",
+    "example": "The children were eagerly waiting for Santa."
+  },
+  {
+    "id": "en_0305",
+    "word": "facility",
+    "ipa": "/fəˈsɪləti/",
+    "koPron": "퍼실리티",
+    "meaningKo": "시설, 기능",
+    "example": "The hotel has excellent sports facilities."
+  },
+  {
+    "id": "en_0306",
+    "word": "genuine",
+    "ipa": "/ˈdʒɛnjuɪn/",
+    "koPron": "제뉴인",
+    "meaningKo": "진짜의, 진실한",
+    "example": "Is this a genuine leather jacket?"
+  },
+  {
+    "id": "en_0307",
+    "word": "hardly",
+    "ipa": "/ˈhɑːrdli/",
+    "koPron": "하들리",
+    "meaningKo": "거의 ~않다",
+    "example": "I could hardly believe my eyes."
+  },
+  {
+    "id": "en_0308",
+    "word": "ignore",
+    "ipa": "/ɪɡˈnɔːr/",
+    "koPron": "이그노어",
+    "meaningKo": "무시하다",
+    "example": "You shouldn't ignore the warning signs."
+  },
+  {
+    "id": "en_0309",
+    "word": "justice",
+    "ipa": "/ˈdʒʌstɪs/",
+    "koPron": "저스티스",
+    "meaningKo": "정의, 사법",
+    "example": "She fought for social justice her whole life."
+  },
+  {
+    "id": "en_0310",
+    "word": "kingdom",
+    "ipa": "/ˈkɪŋdəm/",
+    "koPron": "킹덤",
+    "meaningKo": "왕국",
+    "example": "The united kingdom is a beautiful country."
+  },
+  {
+    "id": "en_0311",
+    "word": "logical",
+    "ipa": "/ˈlɒdʒɪkl/",
+    "koPron": "로지컬",
+    "meaningKo": "논리적인",
+    "example": "There is no logical explanation for his behavior."
+  },
+  {
+    "id": "en_0312",
+    "word": "massive",
+    "ipa": "/ˈmæsɪv/",
+    "koPron": "매시브",
+    "meaningKo": "거대한, 대규모의",
+    "example": "A massive rock blocked the road."
+  },
+  {
+    "id": "en_0313",
+    "word": "negative",
+    "ipa": "/ˈnɛɡətɪv/",
+    "koPron": "네거티브",
+    "meaningKo": "부정적인",
+    "example": "Try not to have a negative attitude."
+  },
+  {
+    "id": "en_0314",
+    "word": "observe",
+    "ipa": "/əbˈzɜːrv/",
+    "koPron": "업저브",
+    "meaningKo": "관찰하다, 준수하다",
+    "example": "Scientists observe the behavior of animals."
+  },
+  {
+    "id": "en_0315",
+    "word": "particle",
+    "ipa": "/ˈpɑːrtɪkl/",
+    "koPron": "파티클",
+    "meaningKo": "입자, 아주 작은 조각",
+    "example": "Dust particles were floating in the air."
+  },
+  {
+    "id": "en_0316",
+    "word": "quality",
+    "ipa": "/ˈkwɒləti/",
+    "koPron": "퀄리티",
+    "meaningKo": "질, 특성",
+    "example": "We focus on quality rather than quantity."
+  },
+  {
+    "id": "en_0317",
+    "word": "rarely",
+    "ipa": "/ˈrɛərli/",
+    "koPron": "레어리",
+    "meaningKo": "드물게, 좀처럼 ~않다",
+    "example": "I rarely go out during the week."
+  },
+  {
+    "id": "en_0318",
+    "word": "sample",
+    "ipa": "/ˈsæmpl/",
+    "koPron": "샘플",
+    "meaningKo": "표본, 견본",
+    "example": "They took a blood sample for testing."
+  },
+  {
+    "id": "en_0319",
+    "word": "theory",
+    "ipa": "/ˈθɪəri/",
+    "koPron": "시어리",
+    "meaningKo": "이론",
+    "example": "In theory, the plan should work."
+  },
+  {
+    "id": "en_0320",
+    "word": "urgent",
+    "ipa": "/ˈɜːrdʒənt/",
+    "koPron": "어전트",
+    "meaningKo": "긴급한",
+    "example": "I have an urgent message for you."
+  },
+  {
+    "id": "en_0321",
+    "word": "vivid",
+    "ipa": "/ˈvɪvɪd/",
+    "koPron": "비비드",
+    "meaningKo": "생생한, 선명한",
+    "example": "I have a vivid memory of that day."
+  },
+  {
+    "id": "en_0322",
+    "word": "weapon",
+    "ipa": "/ˈwɛpən/",
+    "koPron": "웨폰",
+    "meaningKo": "무기",
+    "example": "The police are searching for the murder weapon."
+  },
+  {
+    "id": "en_0323",
+    "word": "yield",
+    "ipa": "/jiːld/",
+    "koPron": "일드",
+    "meaningKo": "생산하다, 굴복하다",
+    "example": "This soil yields good crops."
+  },
+  {
+    "id": "en_0324",
+    "word": "accurate",
+    "ipa": "/ˈækjərət/",
+    "koPron": "애큐럿",
+    "meaningKo": "정확한",
+    "example": "Is this clock accurate?"
+  },
+  {
+    "id": "en_0325",
+    "word": "barrier",
+    "ipa": "/ˈbæriər/",
+    "koPron": "배리어",
+    "meaningKo": "장벽, 장애물",
+    "example": "Concrete barriers were placed along the road."
+  },
+  {
+    "id": "en_0326",
+    "word": "confirm",
+    "ipa": "/kənˈfɜːrm/",
+    "koPron": "컨펌",
+    "meaningKo": "확인하다, 확정하다",
+    "example": "Please confirm your reservation."
+  },
+  {
+    "id": "en_0327",
+    "word": "decrease",
+    "ipa": "/dɪˈkriːs/",
+    "koPron": "디크리스",
+    "meaningKo": "감소하다, 줄이다",
+    "example": "The population is starting to decrease."
+  },
+  {
+    "id": "en_0328",
+    "word": "evidence",
+    "ipa": "/ˈɛvɪdəns/",
+    "koPron": "에비던스",
+    "meaningKo": "증거",
+    "example": "There is no evidence to support his claim."
+  },
+  {
+    "id": "en_0329",
+    "word": "flexible",
+    "ipa": "/ˈflɛksəbl/",
+    "koPron": "플렉서블",
+    "meaningKo": "유연한, 융통성 있는",
+    "example": "My working hours are quite flexible."
+  },
+  {
+    "id": "en_0330",
+    "word": "glance",
+    "ipa": "/ɡlæns/",
+    "koPron": "글랜스",
+    "meaningKo": "흘낏 보다, 훑어보다",
+    "example": "He took a quick glance at his watch."
+  },
+  {
+    "id": "en_0331",
+    "word": "hostile",
+    "ipa": "/ˈhɒstaɪl/",
+    "koPron": "하스탈",
+    "meaningKo": "적대적인",
+    "example": "The environment was hostile to new ideas."
+  },
+  {
+    "id": "en_0332",
+    "word": "indicate",
+    "ipa": "/ˈɪndɪkeɪt/",
+    "koPron": "인디케이트",
+    "meaningKo": "나타내다, 가리키다",
+    "example": "A red light indicates danger."
+  },
+  {
+    "id": "en_0333",
+    "word": "justice",
+    "ipa": "/ˈdʒʌstɪs/",
+    "koPron": "저스티스",
+    "meaningKo": "정의, 재판",
+    "example": "He was brought to justice for his crimes."
+  },
+  {
+    "id": "en_0334",
+    "word": "knowledge",
+    "ipa": "/ˈnɒlɪdʒ/",
+    "koPron": "날리지",
+    "meaningKo": "지식",
+    "example": "He has a broad knowledge of history."
+  },
+  {
+    "id": "en_0335",
+    "word": "luxury",
+    "ipa": "/ˈlʌkʃəri/",
+    "koPron": "럭셔리",
+    "meaningKo": "사치, 호화로움",
+    "example": "They live a life of luxury."
+  },
+  {
+    "id": "en_0336",
+    "word": "mention",
+    "ipa": "/ˈmɛnʃn/",
+    "koPron": "멘션",
+    "meaningKo": "언급하다",
+    "example": "Did he mention where he was going?"
+  },
+  {
+    "id": "en_0337",
+    "word": "notable",
+    "ipa": "/ˈnoʊtəbl/",
+    "koPron": "노터블",
+    "meaningKo": "주목할 만한",
+    "example": "There is a notable difference between the two."
+  },
+  {
+    "id": "en_0338",
+    "word": "oppose",
+    "ipa": "/əˈpoʊz/",
+    "koPron": "어포즈",
+    "meaningKo": "반대하다",
+    "example": "The residents oppose the new highway."
+  },
+  {
+    "id": "en_0339",
+    "word": "precise",
+    "ipa": "/prɪˈsaɪs/",
+    "koPron": "프리사이즈",
+    "meaningKo": "정확한, 정밀한",
+    "example": "Can you give me the precise measurements?"
+  },
+  {
+    "id": "en_0340",
+    "word": "quit",
+    "ipa": "/kwɪt/",
+    "koPron": "큇",
+    "meaningKo": "그만두다",
+    "example": "He decided to quit his job."
+  },
+  {
+    "id": "en_0341",
+    "word": "reveal",
+    "ipa": "/rɪˈviːl/",
+    "koPron": "리빌",
+    "meaningKo": "드러내다, 밝히다",
+    "example": "The investigation revealed the truth."
+  },
+  {
+    "id": "en_0342",
+    "word": "status",
+    "ipa": "/ˈsteɪtəs/",
+    "koPron": "스테이터스",
+    "meaningKo": "지위, 상태",
+    "example": "What is the status of our application?"
+  },
+  {
+    "id": "en_0343",
+    "word": "target",
+    "ipa": "/ˈtɑːrɡɪt/",
+    "koPron": "타겟",
+    "meaningKo": "목표, 대상",
+    "example": "We missed our target for this year."
+  },
+  {
+    "id": "en_0344",
+    "word": "unusual",
+    "ipa": "/ʌnˈjuːʒuəl/",
+    "koPron": "언유주얼",
+    "meaningKo": "특이한, 흔치 않은",
+    "example": "It's unusual for it to snow in April."
+  },
+  {
+    "id": "en_0345",
+    "word": "vague",
+    "ipa": "/veɪɡ/",
+    "koPron": "베이그",
+    "meaningKo": "희미한, 모호한",
+    "example": "I have only a vague idea of the plan."
+  },
+  {
+    "id": "en_0346",
+    "word": "witness",
+    "ipa": "/ˈwɪtnəs/",
+    "koPron": "위트니스",
+    "meaningKo": "목격자, 목격하다",
+    "example": "She was a witness to the accident."
+  },
+  {
+    "id": "en_0347",
+    "word": "ability",
+    "ipa": "/əˈbɪləti/",
+    "koPron": "어빌리티",
+    "meaningKo": "능력",
+    "example": "I admire your ability to stay calm."
+  },
+  {
+    "id": "en_0348",
+    "word": "benefit",
+    "ipa": "/ˈbɛnɪfɪt/",
+    "koPron": "베네핏",
+    "meaningKo": "혜택, 이득",
+    "example": "Regular exercise has many benefits."
+  },
+  {
+    "id": "en_0349",
+    "word": "complex",
+    "ipa": "/kəmˈplɛks/",
+    "koPron": "컴플렉스",
+    "meaningKo": "복잡한",
+    "example": "The problem is more complex than it seems."
+  },
+  {
+    "id": "en_0350",
+    "word": "distinct",
+    "ipa": "/dɪˈstɪŋkt/",
+    "koPron": "디스틴트",
+    "meaningKo": "뚜렷한, 별개의",
+    "example": "There is a distinct smell of gas."
+  },
+  {
+    "id": "en_0351",
+    "word": "embrace",
+    "ipa": "/ɪmˈbreɪs/",
+    "koPron": "임브레이스",
+    "meaningKo": "포용하다, 받아들이다",
+    "example": "We should embrace new technology."
+  },
+  {
+    "id": "en_0352",
+    "word": "feature",
+    "ipa": "/ˈfiːtʃər/",
+    "koPron": "피처",
+    "meaningKo": "특징, 이목구비",
+    "example": "The main feature of the park is the lake."
+  },
+  {
+    "id": "en_0353",
+    "word": "grant",
+    "ipa": "/ɡrænt/",
+    "koPron": "그랜트",
+    "meaningKo": "승인하다, 부여하다",
+    "example": "They granted him a scholarship."
+  },
+  {
+    "id": "en_0354",
+    "word": "harsh",
+    "ipa": "/hɑːrʃ/",
+    "koPron": "하시",
+    "meaningKo": "가혹한, 거친",
+    "example": "The winter weather was very harsh."
+  },
+  {
+    "id": "en_0355",
+    "word": "inspire",
+    "ipa": "/ɪnˈspaɪər/",
+    "koPron": "인스파이어",
+    "meaningKo": "영감을 주다",
+    "example": "His speech inspired many people."
+  },
+  {
+    "id": "en_0356",
+    "word": "justify",
+    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "koPron": "저스티파이",
+    "meaningKo": "정당화하다",
+    "example": "How can you justify such a decision?"
+  },
+  {
+    "id": "en_0357",
+    "word": "keen",
+    "ipa": "/kiːn/",
+    "koPron": "킨",
+    "meaningKo": "열정적인, 예리한",
+    "example": "She is a keen observer of human nature."
+  },
+  {
+    "id": "en_0358",
+    "word": "loyal",
+    "ipa": "/ˈlɔɪəl/",
+    "koPron": "로열",
+    "meaningKo": "충성스러운",
+    "example": "He has always been a loyal friend."
+  },
+  {
+    "id": "en_0359",
+    "word": "mature",
+    "ipa": "/məˈtʃʊər/",
+    "koPron": "머추어",
+    "meaningKo": "성숙한",
+    "example": "She is very mature for her age."
+  },
+  {
+    "id": "en_0360",
+    "word": "neglect",
+    "ipa": "/nɪˈɡlɛkt/",
+    "koPron": "니글렉트",
+    "meaningKo": "방치하다, 소홀히 하다",
+    "example": "Don't neglect your health."
+  },
+  {
+    "id": "en_0361",
+    "word": "outcome",
+    "ipa": "/ˈaʊtkʌm/",
+    "koPron": "아웃컴",
+    "meaningKo": "결과",
+    "example": "We are waiting for the outcome of the trial."
+  },
+  {
+    "id": "en_0362",
+    "word": "patience",
+    "ipa": "/ˈpeɪʃns/",
+    "koPron": "페이션스",
+    "meaningKo": "인내심",
+    "example": "Teaching requires a lot of patience."
+  },
+  {
+    "id": "en_0363",
+    "word": "quote",
+    "ipa": "/kwoʊt/",
+    "koPron": "쿼트",
+    "meaningKo": "인용하다",
+    "example": "He loves to quote famous philosophers."
+  },
+  {
+    "id": "en_0364",
+    "word": "relevant",
+    "ipa": "/ˈrɛləvənt/",
+    "koPron": "렐러번트",
+    "meaningKo": "관련 있는",
+    "example": "That point is not relevant to our discussion."
+  },
+  {
+    "id": "en_0365",
+    "word": "severe",
+    "ipa": "/sɪˈvɪər/",
+    "koPron": "시비어",
+    "meaningKo": "심각한",
+    "example": "He suffered a severe head injury."
+  },
+  {
+    "id": "en_0366",
+    "word": "temporary",
+    "ipa": "/ˈtɛmprəri/",
+    "koPron": "템포러리",
+    "meaningKo": "일시적인",
+    "example": "This is just a temporary solution."
+  },
+  {
+    "id": "en_0367",
+    "word": "unique",
+    "ipa": "/juˈniːk/",
+    "koPron": "유니크",
+    "meaningKo": "독특한",
+    "example": "Each person has a unique style."
+  },
+  {
+    "id": "en_0368",
+    "word": "valuable",
+    "ipa": "/ˈvæljuəbl/",
+    "koPron": "밸류어블",
+    "meaningKo": "가치 있는, 귀중한",
+    "example": "Experience is a valuable asset."
+  },
+  {
+    "id": "en_0369",
+    "word": "withdraw",
+    "ipa": "/wɪðˈdrɔː/",
+    "koPron": "위드드로",
+    "meaningKo": "철회하다, 인출하다",
+    "example": "He withdrew all his money from the bank."
+  },
+  {
+    "id": "en_0370",
+    "word": "abstract",
+    "ipa": "/ˈæbstrækt/",
+    "koPron": "앱스트랙트",
+    "meaningKo": "추상적인",
+    "example": "Truth and love are abstract concepts."
+  },
+  {
+    "id": "en_0371",
+    "word": "brief",
+    "ipa": "/briːf/",
+    "koPron": "브리프",
+    "meaningKo": "잠깐의, 짧은",
+    "example": "I'll be as brief as possible."
+  },
+  {
+    "id": "en_0372",
+    "word": "constant",
+    "ipa": "/ˈkɒnstənt/",
+    "koPron": "콘스턴트",
+    "meaningKo": "끊임없는, 변함없는",
+    "example": "He is in constant pain."
+  },
+  {
+    "id": "en_0373",
+    "word": "discipline",
+    "ipa": "/ˈdɪsəplɪn/",
+    "koPron": "디시플린",
+    "meaningKo": "훈육, 규율, 징계하다",
+    "example": "Yoga requires a lot of discipline."
+  },
+  {
+    "id": "en_0374",
+    "word": "ensure",
+    "ipa": "/ɪnˈʃʊər/",
+    "koPron": "인슈어",
+    "meaningKo": "보장하다, 확실히 하다",
+    "example": "Please ensure that all doors are locked."
+  },
+  {
+    "id": "en_0375",
+    "word": "fundamental",
+    "ipa": "/ˌfʌndəˈmɛntl/",
+    "koPron": "펀더멘털",
+    "meaningKo": "근본적인",
+    "example": "Education is a fundamental human right."
+  },
+  {
+    "id": "en_0376",
+    "word": "gradual",
+    "ipa": "/ˈɡrædʒuəl/",
+    "koPron": "그래쥬얼",
+    "meaningKo": "점진적인",
+    "example": "There has been a gradual improvement in his health."
+  },
+  {
+    "id": "en_0377",
+    "word": "heritage",
+    "ipa": "/ˈhɛrɪtɪdʒ/",
+    "koPron": "헤리티지",
+    "meaningKo": "유산",
+    "example": "We must preserve our national heritage."
+  },
+  {
+    "id": "en_0378",
+    "word": "internal",
+    "ipa": "/ɪnˈtɜːrnl/",
+    "koPron": "인터널",
+    "meaningKo": "내부의",
+    "example": "The medicine is for internal use only."
+  },
+  {
+    "id": "en_0379",
+    "word": "logic",
+    "ipa": "/ˈlɒdʒɪk/",
+    "koPron": "로직",
+    "meaningKo": "논리",
+    "example": "I don't follow your logic."
+  },
+  {
+    "id": "en_0380",
+    "word": "modify",
+    "ipa": "/ˈmɒdɪfaɪ/",
+    "koPron": "모디파이",
+    "meaningKo": "수정하다, 바꾸다",
+    "example": "We have to modify the design slightly."
+  },
+  {
+    "id": "en_0381",
+    "word": "notion",
+    "ipa": "/ˈnoʊʃn/",
+    "koPron": "노션",
+    "meaningKo": "개념, 생각",
+    "example": "He has a strange notion of what is fair."
+  },
+  {
+    "id": "en_0382",
+    "word": "objective",
+    "ipa": "/əbˈdʒɛktɪv/",
+    "koPron": "오브젝티브",
+    "meaningKo": "목표, 객관적인",
+    "example": "Our primary objective is to cut costs."
+  },
+  {
+    "id": "en_0383",
+    "word": "persist",
+    "ipa": "/pərˈsɪst/",
+    "koPron": "퍼시스트",
+    "meaningKo": "집요하게 계속하다",
+    "example": "If the symptoms persist, see a doctor."
+  },
+  {
+    "id": "en_0384",
+    "word": "range",
+    "ipa": "/reɪndʒ/",
+    "koPron": "레인지",
+    "meaningKo": "범위",
+    "example": "The temperature is in the range of 20 to 25 degrees."
+  },
+  {
+    "id": "en_0385",
+    "word": "scheme",
+    "ipa": "/skiːm/",
+    "koPron": "스킴",
+    "meaningKo": "계획, 책략",
+    "example": "The government introduced a new housing scheme."
+  },
+  {
+    "id": "en_0386",
+    "word": "transform",
+    "ipa": "/trænsˈfɔːrm/",
+    "koPron": "트랜스폼",
+    "meaningKo": "변형시키다",
+    "example": "The old factory was transformed into a gallery."
+  },
+  {
+    "id": "en_0387",
+    "word": "utility",
+    "ipa": "/juːˈtɪləti/",
+    "koPron": "유틸리티",
+    "meaningKo": "공공 서비스, 유용성",
+    "example": "Rescue teams are trying to restore utilities."
+  },
+  {
+    "id": "en_0388",
+    "word": "version",
+    "ipa": "/ˈvɜːrʒn/",
+    "koPron": "버전",
+    "meaningKo": "판, 형태",
+    "example": "I prefer the movie version of the book."
+  },
+  {
+    "id": "en_0389",
+    "word": "welfare",
+    "ipa": "/ˈwɛlfɛər/",
+    "koPron": "웰페어",
+    "meaningKo": "복지",
+    "example": "The government is responsible for social welfare."
+  },
+  {
+    "id": "en_0390",
+    "word": "acquire",
+    "ipa": "/əˈkwaɪər/",
+    "koPron": "어콰이어",
+    "meaningKo": "습득하다, 얻다",
+    "example": "She acquired a love of music at an early age."
+  },
+  {
+    "id": "en_0391",
+    "word": "broad",
+    "ipa": "/brɔːd/",
+    "koPron": "브로드",
+    "meaningKo": "넓은",
+    "example": "He has broad shoulders."
+  },
+  {
+    "id": "en_0392",
+    "word": "component",
+    "ipa": "/kəmˈpoʊnənt/",
+    "koPron": "컴포넌트",
+    "meaningKo": "요소, 부품",
+    "example": "Trust is a vital component of a relationship."
+  },
+  {
+    "id": "en_0393",
+    "word": "domestic",
+    "ipa": "/dəˈmɛstɪk/",
+    "koPron": "도메스틱",
+    "meaningKo": "국내의, 가정의",
+    "example": "The airport handles only domestic flights."
+  },
+  {
+    "id": "en_0394",
+    "word": "evaluate",
+    "ipa": "/ɪˈvæljueɪt/",
+    "koPron": "이밸류에이트",
+    "meaningKo": "평가하다",
+    "example": "We need to evaluate the success of the project."
+  },
+  {
+    "id": "en_0395",
+    "word": "generate",
+    "ipa": "/ˈdʒɛnəreɪt/",
+    "koPron": "제너레이트",
+    "meaningKo": "발생시키다, 만들어내다",
+    "example": "The wind turbines generate electricity."
+  },
+  {
+    "id": "en_0396",
+    "word": "hypothesis",
+    "ipa": "/haɪˈpɒθəsɪs/",
+    "koPron": "하이포테시스",
+    "meaningKo": "가설",
+    "example": "The data supports my hypothesis."
+  },
+  {
+    "id": "en_0397",
+    "word": "instance",
+    "ipa": "/ˈɪnstəns/",
+    "koPron": "인스턴스",
+    "meaningKo": "사례, 경우",
+    "example": "This is a rare instance of success."
+  },
+  {
+    "id": "en_0398",
+    "word": "liberal",
+    "ipa": "/ˈlɪbərəl/",
+    "koPron": "리버럴",
+    "meaningKo": "자유주의적인, 너그러운",
+    "example": "He has liberal views on education."
+  },
+  {
+    "id": "en_0399",
+    "word": "mechanism",
+    "ipa": "/ˈmɛkənɪzəm/",
+    "koPron": "메커니즘",
+    "meaningKo": "기제, 구조",
+    "example": "The locking mechanism is broken."
+  },
+  {
+    "id": "en_0400",
+    "word": "overall",
+    "ipa": "/ˌoʊvərˈɔːl/",
+    "koPron": "오버롤",
+    "meaningKo": "전반적인",
+    "example": "The overall cost was much higher than expected."
   }
 ]
