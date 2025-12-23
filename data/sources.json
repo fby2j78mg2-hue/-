@@ -1,0 +1,5 @@
+{
+  "en": ["./data/vocab_en_1.json"],
+  "ja": ["./data/vocab_ja_1.json"],
+  "es": ["./data/vocab_es_1.json"]
+}
