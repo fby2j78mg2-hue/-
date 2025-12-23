@@ -1,0 +1,17 @@
+{
+  "en": [
+    "./data/vocab_en_1.json",
+    "./data/vocab_en_2.json",
+    "./data/vocab_en_3.json"
+  ],
+  "ja": [
+    "./data/vocab_ja_1.json",
+    "./data/vocab_ja_2.json",
+    "./data/vocab_ja_3.json"
+  ],
+  "es": [
+    "./data/vocab_es_1.json",
+    "./data/vocab_es_2.json",
+    "./data/vocab_es_3.json"
+  ]
+}
