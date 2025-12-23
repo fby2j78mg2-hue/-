@@ -158,5 +158,328 @@
     "koPron": "서포트",
     "meaningKo": "지원하다; 지지",
     "example": "Thanks for your support."
+  },
+  {
+    "id": "en_0021",
+    "word": "measure",
+    "ipa": "/ˈmeʒər/",
+    "koPron": "메저",
+    "meaningKo": "측정하다",
+    "example": "We need to measure the results accurately."
+  },
+  {
+    "id": "en_0022",
+    "word": "method",
+    "ipa": "/ˈmeθəd/",
+    "koPron": "메소드",
+    "meaningKo": "방법",
+    "example": "This is a common method used in research."
+  },
+  {
+    "id": "en_0023",
+    "word": "observe",
+    "ipa": "/əbˈzɜːrv/",
+    "koPron": "옵저브",
+    "meaningKo": "관찰하다",
+    "example": "Scientists observe changes over time."
+  },
+  {
+    "id": "en_0024",
+    "word": "occur",
+    "ipa": "/əˈkɜːr/",
+    "koPron": "어커",
+    "meaningKo": "발생하다",
+    "example": "The problem occurred unexpectedly."
+  },
+  {
+    "id": "en_0025",
+    "word": "perform",
+    "ipa": "/pərˈfɔːrm/",
+    "koPron": "퍼폼",
+    "meaningKo": "수행하다",
+    "example": "He performed well during the presentation."
+  },
+  {
+    "id": "en_0026",
+    "word": "potential",
+    "ipa": "/pəˈtenʃəl/",
+    "koPron": "포텐셜",
+    "meaningKo": "잠재적인",
+    "example": "She has the potential to become a leader."
+  },
+  {
+    "id": "en_0027",
+    "word": "process",
+    "ipa": "/ˈprɑːses/",
+    "koPron": "프로세스",
+    "meaningKo": "과정",
+    "example": "Learning a language is a long process."
+  },
+  {
+    "id": "en_0028",
+    "word": "reduce",
+    "ipa": "/rɪˈduːs/",
+    "koPron": "리듀스",
+    "meaningKo": "줄이다",
+    "example": "We need to reduce unnecessary costs."
+  },
+  {
+    "id": "en_0029",
+    "word": "require",
+    "ipa": "/rɪˈkwaɪər/",
+    "koPron": "리콰이어",
+    "meaningKo": "요구하다",
+    "example": "This position requires prior experience."
+  },
+  {
+    "id": "en_0030",
+    "word": "result",
+    "ipa": "/rɪˈzʌlt/",
+    "koPron": "리절트",
+    "meaningKo": "결과",
+    "example": "The final result exceeded expectations."
+  },
+
+  {
+    "id": "en_0031",
+    "word": "significant",
+    "ipa": "/sɪɡˈnɪfɪkənt/",
+    "koPron": "시그니피컨트",
+    "meaningKo": "중요한",
+    "example": "There was a significant improvement in quality."
+  },
+  {
+    "id": "en_0032",
+    "word": "solution",
+    "ipa": "/səˈluːʃən/",
+    "koPron": "솔루션",
+    "meaningKo": "해결책",
+    "example": "We finally found a practical solution."
+  },
+  {
+    "id": "en_0033",
+    "word": "strategy",
+    "ipa": "/ˈstrætədʒi/",
+    "koPron": "스트래터지",
+    "meaningKo": "전략",
+    "example": "They discussed their long-term strategy."
+  },
+  {
+    "id": "en_0034",
+    "word": "structure",
+    "ipa": "/ˈstrʌktʃər/",
+    "koPron": "스트럭처",
+    "meaningKo": "구조",
+    "example": "The structure of the report is clear."
+  },
+  {
+    "id": "en_0035",
+    "word": "theory",
+    "ipa": "/ˈθɪəri/",
+    "koPron": "시어리",
+    "meaningKo": "이론",
+    "example": "This theory explains human behavior."
+  },
+  {
+    "id": "en_0036",
+    "word": "trend",
+    "ipa": "/trend/",
+    "koPron": "트렌드",
+    "meaningKo": "추세",
+    "example": "Remote work has become a major trend."
+  },
+  {
+    "id": "en_0037",
+    "word": "value",
+    "ipa": "/ˈvæljuː/",
+    "koPron": "밸류",
+    "meaningKo": "가치",
+    "example": "Honesty is a core value in this company."
+  },
+  {
+    "id": "en_0038",
+    "word": "various",
+    "ipa": "/ˈveriəs/",
+    "koPron": "베어리어스",
+    "meaningKo": "다양한",
+    "example": "She tried various approaches."
+  },
+  {
+    "id": "en_0039",
+    "word": "adapt",
+    "ipa": "/əˈdæpt/",
+    "koPron": "어댑트",
+    "meaningKo": "적응하다",
+    "example": "People must adapt to new environments."
+  },
+  {
+    "id": "en_0040",
+    "word": "affect",
+    "ipa": "/əˈfekt/",
+    "koPron": "어펙트",
+    "meaningKo": "영향을 주다",
+    "example": "Lack of sleep can affect performance."
+  },
+
+  {
+    "id": "en_0041",
+    "word": "alternative",
+    "ipa": "/ɔːlˈtɜːrnətɪv/",
+    "koPron": "얼터너티브",
+    "meaningKo": "대안",
+    "example": "We need an alternative plan."
+  },
+  {
+    "id": "en_0042",
+    "word": "aware",
+    "ipa": "/əˈwer/",
+    "koPron": "어웨어",
+    "meaningKo": "알고 있는",
+    "example": "She is aware of the risks involved."
+  },
+  {
+    "id": "en_0043",
+    "word": "compare",
+    "ipa": "/kəmˈper/",
+    "koPron": "컴페어",
+    "meaningKo": "비교하다",
+    "example": "Compare the two products carefully."
+  },
+  {
+    "id": "en_0044",
+    "word": "complex",
+    "ipa": "/kəmˈpleks/",
+    "koPron": "컴플렉스",
+    "meaningKo": "복잡한",
+    "example": "This is a complex issue to solve."
+  },
+  {
+    "id": "en_0045",
+    "word": "concern",
+    "ipa": "/kənˈsɜːrn/",
+    "koPron": "컨선",
+    "meaningKo": "걱정, 관심",
+    "example": "Safety is our main concern."
+  },
+  {
+    "id": "en_0046",
+    "word": "consume",
+    "ipa": "/kənˈsuːm/",
+    "koPron": "컨슘",
+    "meaningKo": "소비하다",
+    "example": "Cars consume a lot of fuel."
+  },
+  {
+    "id": "en_0047",
+    "word": "critical",
+    "ipa": "/ˈkrɪtɪkəl/",
+    "koPron": "크리티컬",
+    "meaningKo": "중요한, 비판적인",
+    "example": "This is a critical moment."
+  },
+  {
+    "id": "en_0048",
+    "word": "decline",
+    "ipa": "/dɪˈklaɪn/",
+    "koPron": "디클라인",
+    "meaningKo": "감소하다",
+    "example": "Sales began to decline last year."
+  },
+  {
+    "id": "en_0049",
+    "word": "efficient",
+    "ipa": "/ɪˈfɪʃənt/",
+    "koPron": "이피션트",
+    "meaningKo": "효율적인",
+    "example": "This system is highly efficient."
+  },
+  {
+    "id": "en_0050",
+    "word": "expand",
+    "ipa": "/ɪkˈspænd/",
+    "koPron": "익스팬드",
+    "meaningKo": "확장하다",
+    "example": "The company plans to expand overseas."
+  },
+
+  {
+    "id": "en_0051",
+    "word": "identify",
+    "ipa": "/aɪˈdentɪfaɪ/",
+    "koPron": "아이덴티파이",
+    "meaningKo": "식별하다",
+    "example": "Can you identify the main problem?"
+  },
+  {
+    "id": "en_0052",
+    "word": "limit",
+    "ipa": "/ˈlɪmɪt/",
+    "koPron": "리밋",
+    "meaningKo": "제한하다",
+    "example": "We must limit unnecessary spending."
+  },
+  {
+    "id": "en_0053",
+    "word": "modify",
+    "ipa": "/ˈmɒdɪfaɪ/",
+    "koPron": "모디파이",
+    "meaningKo": "수정하다",
+    "example": "They modified the original design."
+  },
+  {
+    "id": "en_0054",
+    "word": "prioritize",
+    "ipa": "/praɪˈɒrətaɪz/",
+    "koPron": "프라이어리타이즈",
+    "meaningKo": "우선시하다",
+    "example": "You should prioritize important tasks."
+  },
+  {
+    "id": "en_0055",
+    "word": "resource",
+    "ipa": "/rɪˈsɔːrs/",
+    "koPron": "리소스",
+    "meaningKo": "자원",
+    "example": "Time is a valuable resource."
+  },
+  {
+    "id": "en_0056",
+    "word": "respond",
+    "ipa": "/rɪˈspɒnd/",
+    "koPron": "리스폰드",
+    "meaningKo": "응답하다",
+    "example": "Please respond as soon as possible."
+  },
+  {
+    "id": "en_0057",
+    "word": "reveal",
+    "ipa": "/rɪˈviːl/",
+    "koPron": "리빌",
+    "meaningKo": "드러내다",
+    "example": "The report revealed serious issues."
+  },
+  {
+    "id": "en_0058",
+    "word": "stable",
+    "ipa": "/ˈsteɪbəl/",
+    "koPron": "스테이블",
+    "meaningKo": "안정적인",
+    "example": "The situation remains stable."
+  },
+  {
+    "id": "en_0059",
+    "word": "transfer",
+    "ipa": "/ˈtrænsfər/",
+    "koPron": "트랜스퍼",
+    "meaningKo": "이전하다",
+    "example": "She transferred the files to a new folder."
+  },
+  {
+    "id": "en_0060",
+    "word": "ultimate",
+    "ipa": "/ˈʌltɪmət/",
+    "koPron": "얼티밋",
+    "meaningKo": "궁극적인",
+    "example": "This is our ultimate goal."
   }
 ]
