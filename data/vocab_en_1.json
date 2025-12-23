@@ -1,0 +1,162 @@
+[
+  {
+    "id": "en_0001",
+    "word": "account",
+    "ipa": "/əˈkaʊnt/",
+    "koPron": "어카운트",
+    "meaningKo": "계정, 설명",
+    "example": "I created an account to track my expenses."
+  },
+  {
+    "id": "en_0002",
+    "word": "achieve",
+    "ipa": "/əˈtʃiːv/",
+    "koPron": "어치브",
+    "meaningKo": "달성하다",
+    "example": "Small habits help you achieve big goals."
+  },
+  {
+    "id": "en_0003",
+    "word": "clarify",
+    "ipa": "/ˈklærɪfaɪ/",
+    "koPron": "클래러파이",
+    "meaningKo": "명확히 하다",
+    "example": "Could you clarify what you mean?"
+  },
+  {
+    "id": "en_0004",
+    "word": "reliable",
+    "ipa": "/rɪˈlaɪəbəl/",
+    "koPron": "릴라이어블",
+    "meaningKo": "믿을 수 있는",
+    "example": "This brand is reliable."
+  },
+  {
+    "id": "en_0005",
+    "word": "schedule",
+    "ipa": "/ˈskedʒuːl/",
+    "koPron": "스케줄",
+    "meaningKo": "일정",
+    "example": "My work schedule changes every week."
+  },
+  {
+    "id": "en_0006",
+    "word": "estimate",
+    "ipa": "/ˈestɪmeɪt/",
+    "koPron": "에스티메이트",
+    "meaningKo": "추정하다; 추정치",
+    "example": "Can you estimate the cost?"
+  },
+  {
+    "id": "en_0007",
+    "word": "efficient",
+    "ipa": "/ɪˈfɪʃənt/",
+    "koPron": "이피션트",
+    "meaningKo": "효율적인",
+    "example": "This workflow is more efficient."
+  },
+  {
+    "id": "en_0008",
+    "word": "consist",
+    "ipa": "/kənˈsɪst/",
+    "koPron": "컨시스트",
+    "meaningKo": "~로 이루어지다",
+    "example": "The team consists of five people."
+  },
+  {
+    "id": "en_0009",
+    "word": "improve",
+    "ipa": "/ɪmˈpruːv/",
+    "koPron": "임프루브",
+    "meaningKo": "개선하다",
+    "example": "I want to improve my English."
+  },
+  {
+    "id": "en_0010",
+    "word": "avoid",
+    "ipa": "/əˈvɔɪd/",
+    "koPron": "어보이드",
+    "meaningKo": "피하다",
+    "example": "Try to avoid distractions."
+  },
+  {
+    "id": "en_0011",
+    "word": "remind",
+    "ipa": "/rɪˈmaɪnd/",
+    "koPron": "리마인드",
+    "meaningKo": "상기시키다",
+    "example": "Please remind me tomorrow."
+  },
+  {
+    "id": "en_0012",
+    "word": "focus",
+    "ipa": "/ˈfoʊkəs/",
+    "koPron": "포커스",
+    "meaningKo": "집중하다; 초점",
+    "example": "Let’s focus on the main issue."
+  },
+  {
+    "id": "en_0013",
+    "word": "maintain",
+    "ipa": "/meɪnˈteɪn/",
+    "koPron": "메인테인",
+    "meaningKo": "유지하다",
+    "example": "It’s hard to maintain good habits."
+  },
+  {
+    "id": "en_0014",
+    "word": "reduce",
+    "ipa": "/rɪˈduːs/",
+    "koPron": "리듀스",
+    "meaningKo": "줄이다",
+    "example": "We need to reduce waste."
+  },
+  {
+    "id": "en_0015",
+    "word": "increase",
+    "ipa": "/ɪnˈkriːs/",
+    "koPron": "인크리스",
+    "meaningKo": "늘리다",
+    "example": "Sales increased last month."
+  },
+  {
+    "id": "en_0016",
+    "word": "accurate",
+    "ipa": "/ˈækjərət/",
+    "koPron": "애큐럿",
+    "meaningKo": "정확한",
+    "example": "The information is accurate."
+  },
+  {
+    "id": "en_0017",
+    "word": "challenge",
+    "ipa": "/ˈtʃælɪndʒ/",
+    "koPron": "챌린지",
+    "meaningKo": "도전; 도전하다",
+    "example": "This exam is a challenge."
+  },
+  {
+    "id": "en_0018",
+    "word": "decide",
+    "ipa": "/dɪˈsaɪd/",
+    "koPron": "디사이드",
+    "meaningKo": "결정하다",
+    "example": "I haven’t decided yet."
+  },
+  {
+    "id": "en_0019",
+    "word": "prefer",
+    "ipa": "/prɪˈfɜːr/",
+    "koPron": "프리퍼",
+    "meaningKo": "선호하다",
+    "example": "I prefer tea to coffee."
+  },
+  {
+    "id": "en_0020",
+    "word": "support",
+    "ipa": "/səˈpɔːrt/",
+    "koPron": "서포트",
+    "meaningKo": "지원하다; 지지",
+    "example": "Thanks for your support."
+  }
+]
